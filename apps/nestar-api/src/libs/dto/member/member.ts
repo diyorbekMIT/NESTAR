@@ -9,13 +9,13 @@ export class Member {
     @Field(() => String)
     _id: ObjectId;
 
-    @Field(() => MemberType, {nullable: true})
+    @Field(() => MemberType,)
     memberType: MemberType
 
     @Field(() => MemberStatus)
     memberStatus: MemberStatus;
 
-    @Field(() => MemberAuthType,{nullable: true} )
+    @Field(() => MemberAuthType,)
     memberAuthType: MemberAuthType;
 
     @Field(() => String)
