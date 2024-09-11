@@ -91,6 +91,8 @@ export class Property {
 
     @Field(() => [MeLiked], {nullable: true})
     meLiked?: MeLiked[] 
+	
+	
 }
 
 @ObjectType()
