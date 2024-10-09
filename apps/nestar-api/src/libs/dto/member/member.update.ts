@@ -50,7 +50,7 @@ export class MemberUpdate {
     memberDesc?: string;
 
     
-    deleteAt?: Date;
+    deletedAt?: Date;
 
    
 }
